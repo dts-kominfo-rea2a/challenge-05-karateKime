@@ -24,16 +24,16 @@ const sorter = (list, fnSort) => {
 // mengembalikan array yang sudah diurutkan
 // const sortAscending = null;
 
-const sortAscending = (list) => {
-  return list.sort()
+const sortAscending = (a) => {
+  return a.sort()
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 // const sortDescending = null;
 
-const sortDescending = (list) => {
-  return list.reverse()
+const sortDescending = (b) => {
+  return b.sort().reverse()
 }
 
 // ! JANGAN DIMODIFIKASI

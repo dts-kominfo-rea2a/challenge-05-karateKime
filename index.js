@@ -36,17 +36,15 @@ const sortDescending = (b) => {
   return b.sort().reverse();
 }
 
-// // ! JANGAN DIMODIFIKASI
-// (function main() {
-//   console.log(sorter?.(names, sortAscending)?.join("\n"));
-//   console.log(sorter?.(names, sortDescending)?.join("\n"));
-// })();
+// ! JANGAN DIMODIFIKASI
+(function main() {
+  console.log(sorter?.(names, sortAscending)?.join("\n"));
+  console.log(sorter?.(names, sortDescending)?.join("\n"));
+})();
 
-// module.exports = {
-//   sorter,
-//   sortAscending,
-//   sortDescending,
-//   names,
-// };
-
-console.log(sorter(names,sortAscending));
+module.exports = {
+  sorter,
+  sortAscending,
+  sortDescending,
+  names,
+};

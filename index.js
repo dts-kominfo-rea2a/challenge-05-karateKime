@@ -14,7 +14,7 @@ const sorter = (list, fnSort) => {
   let c = 1;
   let numberedData = [];
   for (x=0; x<dataSorted.length; x++) {
-    numberedData.push(x+c + '.' + dataSorted[x]);
+    numberedData.push(x+c + '. ' + dataSorted[x]);
   }
   
   return numberedData;
@@ -36,15 +36,17 @@ const sortDescending = (b) => {
   return b.sort().reverse();
 }
 
-// ! JANGAN DIMODIFIKASI
-(function main() {
-  console.log(sorter?.(names, sortAscending)?.join("\n"));
-  console.log(sorter?.(names, sortDescending)?.join("\n"));
-})();
+// // ! JANGAN DIMODIFIKASI
+// (function main() {
+//   console.log(sorter?.(names, sortAscending)?.join("\n"));
+//   console.log(sorter?.(names, sortDescending)?.join("\n"));
+// })();
 
-module.exports = {
-  sorter,
-  sortAscending,
-  sortDescending,
-  names,
-};
+// module.exports = {
+//   sorter,
+//   sortAscending,
+//   sortDescending,
+//   names,
+// };
+
+console.log(sorter(names,sortAscending));

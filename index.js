@@ -33,7 +33,7 @@ const sortAscending = (a) => {
 // const sortDescending = null;
 
 const sortDescending = (b) => {
-  return b.reverse();
+  return b.sort().reverse();
 }
 
 // ! JANGAN DIMODIFIKASI

@@ -14,11 +14,11 @@ const sorter = (list, fnSort) => {
   let c = 1;
   let numberedData = [];
   for (x=0; x<dataSorted.length; x++) {
-    numberedData.push((x+c + '.' + dataSorted[x]));
+    numberedData.push(x+c + '.' + dataSorted[x]);
   }
   
-  return numberedData
-}
+  return numberedData;
+};
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan

@@ -25,7 +25,7 @@ const sorter = (list, fnSort) => {
 // const sortAscending = null;
 
 const sortAscending = (a) => {
-  return a.sort()
+  return a.sort();
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
@@ -33,7 +33,7 @@ const sortAscending = (a) => {
 // const sortDescending = null;
 
 const sortDescending = (b) => {
-  return b.sort().reverse()
+  return b.reverse();
 }
 
 // ! JANGAN DIMODIFIKASI
